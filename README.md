@@ -195,27 +195,6 @@ Pour changer de modèle OpenAI :
 - Modifier le paramètre `model` dans `ChatSystem.__init__()`
 - Ajuster `max_tokens` selon les capacités du modèle
 
-## 🐛 Dépannage
-
-### Problèmes courants
-
-1. **Erreur de clé API**
-
-   - Vérifiez que votre clé OpenAI est correcte dans le fichier `.env` (local) ou dans les Secrets Streamlit Cloud
-   - Assurez-vous que vous avez des crédits disponibles
-
-2. **Erreur de chargement PDF**
-
-   - Vérifiez que `pypdf` est installé
-   - Certains PDFs protégés peuvent ne pas être lisibles
-
-3. **Erreur Streamlit**
-   - Redémarrez l'application avec `streamlit run chatbot.py` (local)
-   - Vérifiez les logs dans le terminal ou sur le dashboard Streamlit Cloud
-
-### Logs et débogage
-
-Les erreurs sont affichées directement dans l'interface Streamlit avec des messages explicites.
 
 ## 📈 Améliorations futures
 
