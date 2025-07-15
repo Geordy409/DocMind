@@ -1,0 +1,19 @@
+# Interface utilisateur web
+streamlit>=1.28.0
+
+# Framework LangChain pour LLM
+langchain-openai>=0.0.2
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+
+# Gestion des variables d'environnement
+python-dotenv>=1.0.0
+
+# Lecture des fichiers PDF
+pypdf>=3.17.0
+
+# Dépendances système 
+# os - module système 
+# typing - annotations de type 
+# datetime - gestion des dates 
+# tempfile - fichiers temporaires 
