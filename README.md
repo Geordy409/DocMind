@@ -2,6 +2,14 @@
 
 Un assistant conversationnel intelligent développé avec Streamlit et LangChain, capable d'analyser des documents et de répondre à vos questions de manière contextuelle.
 
+## 🌐 Application en ligne
+
+L'application est déployée sur **Streamlit Community Cloud** et accessible directement via ce lien :
+
+**🔗 [https://docmind22.streamlit.app/](https://docmind22.streamlit.app/)**
+
+*Pas besoin d'installation locale ! Utilisez DocuMind directement dans votre navigateur.*
+
 ## ✨ Fonctionnalités
 
 - **📄 Analyse de documents** : Support des formats PDF et TXT
@@ -14,12 +22,18 @@ Un assistant conversationnel intelligent développé avec Streamlit et LangChain
 
 ## 🚀 Installation
 
-### Prérequis
+### Option 1 : Utilisation en ligne (Recommandée)
+
+Accédez directement à l'application déployée : [https://docmind22.streamlit.app/](https://docmind22.streamlit.app/)
+
+### Option 2 : Installation locale
+
+#### Prérequis
 
 - Python 3.8 ou supérieur
 - Une clé API OpenAI
 
-### Étapes d'installation
+#### Étapes d'installation
 
 1. **Cloner le projet**
 
@@ -53,7 +67,13 @@ Un assistant conversationnel intelligent développé avec Streamlit et LangChain
 
 ## 🏃‍♂️ Utilisation
 
-### Démarrer l'application
+### Accès en ligne
+
+1. Rendez-vous sur [https://docmind22.streamlit.app/](https://docmind22.streamlit.app/)
+2. Suivez les instructions à l'écran pour configurer votre clé API OpenAI
+3. Commencez à utiliser l'application !
+
+### Démarrage local
 
 ```bash
 streamlit run chatbot.py
@@ -108,6 +128,27 @@ documind/
 - **PyPDF** : Lecture des fichiers PDF
 - **Python-dotenv** : Gestion des variables d'environnement
 
+## 🚀 Déploiement
+
+### Streamlit Community Cloud
+
+L'application est déployée sur **Streamlit Community Cloud**, ce qui permet :
+
+- **Accès gratuit** : Pas de frais d'hébergement
+- **Mise à jour automatique** : Déploiement automatique à chaque push Git
+- **Haute disponibilité** : Serveurs fiables et rapides
+- **HTTPS sécurisé** : Connexion chiffrée
+- **Pas d'installation** : Utilisation directe dans le navigateur
+
+### Configuration pour le déploiement
+
+Pour déployer votre propre version :
+
+1. Créez un compte sur [share.streamlit.io](https://share.streamlit.io)
+2. Connectez votre repository GitHub
+3. Configurez vos secrets (clé API OpenAI) dans les paramètres Streamlit Cloud
+4. Déployez automatiquement !
+
 ## 📋 Formats supportés
 
 | Format | Extension | Description         |
@@ -160,7 +201,7 @@ Pour changer de modèle OpenAI :
 
 1. **Erreur de clé API**
 
-   - Vérifiez que votre clé OpenAI est correcte dans le fichier `.env`
+   - Vérifiez que votre clé OpenAI est correcte dans le fichier `.env` (local) ou dans les Secrets Streamlit Cloud
    - Assurez-vous que vous avez des crédits disponibles
 
 2. **Erreur de chargement PDF**
@@ -169,8 +210,8 @@ Pour changer de modèle OpenAI :
    - Certains PDFs protégés peuvent ne pas être lisibles
 
 3. **Erreur Streamlit**
-   - Redémarrez l'application avec `streamlit run chatbot.py`
-   - Vérifiez les logs dans le terminal
+   - Redémarrez l'application avec `streamlit run chatbot.py` (local)
+   - Vérifiez les logs dans le terminal ou sur le dashboard Streamlit Cloud
 
 ### Logs et débogage
 
@@ -199,4 +240,8 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 - **Geordy NGOUA** - Développeur principal
 
+---
+
 _DocuMind - Transformez vos documents en conversations intelligentes_ 🚀
+
+**🌐 Essayez maintenant : [https://docmind22.streamlit.app/](https://docmind22.streamlit.app/)**
