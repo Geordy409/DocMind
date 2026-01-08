@@ -4,7 +4,7 @@ Un assistant conversationnel intelligent développé avec Streamlit et LangChain
 
 ## 🌐 Application en ligne
 
-L'application est déployée sur **Streamlit Community Cloud** et accessible directement via ce lien :
+L'application est déployée sur **Streamlit Community Cloud** était accessible directement via ce lien :
 
 **🔗 [https://docmind22.streamlit.app/](https://docmind22.streamlit.app/)**
 
